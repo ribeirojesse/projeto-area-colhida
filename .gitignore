@@ -1,0 +1,12 @@
+# Folders
+.idea
+data/images/*.tif
+data/shapefile/*
+log/*.txt
+notebook
+results
+data
+venv
+.env
+_pycache_
+tests/test_crud.py
