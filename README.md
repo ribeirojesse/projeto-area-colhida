@@ -141,15 +141,25 @@ services:
 
 1. **Interface da API:**
 
-        Imagem aqui
+      ![interface_api](https://github.com/ribeirojesse/spotsat/assets/86420765/d045e558-7958-4de4-8c7a-28e490354e61)
 
-2. **Exmplo de schema**
+2. **Get Image:**
 
-        Imagem aqui 
+      ![get_image](https://github.com/ribeirojesse/spotsat/assets/86420765/d3ef2c91-151f-478d-a7d4-982255cbf65f)
 
-3. **Exemplo de retorno**
+3. **Get Image by ID:**
 
-        Imagem aqui 
+      ![get_by_id](https://github.com/ribeirojesse/spotsat/assets/86420765/cdf1b629-c080-4280-aa2a-92cfcae05b07)
+
+4. **Get by Atributes:**
+
+      ![get_by_atributtes](https://github.com/ribeirojesse/spotsat/assets/86420765/ea0379b1-e3d3-4cee-a384-12aad2a01ed0)
+
+5. **Post:**
+      ![post_method](https://github.com/ribeirojesse/spotsat/assets/86420765/f11c424b-7db0-4c30-8bba-3ece851c6e16)
+
+
+
 # Resultado dos processamentos:
 Para executar o processamento, basta executar o arquivo "main.py"(src/main.py).
 
@@ -185,11 +195,12 @@ python -m unittest discover tests
 
 # Melhorias previstas:
 
-1.
-2.
-3.
-4.
-5. Tratamento de erros ou condições dentro das funções.
+- Salvar modelos;
+- Fazer endpoint pra fazer predição de imagens;
+- Fazer limitação de tamanho de imagens;
+- Fazer FastAPI ser async;
+- Organização por Classes;
+ 
 
 
 
