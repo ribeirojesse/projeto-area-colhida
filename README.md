@@ -287,6 +287,19 @@ A barra de cores à direita vai de 0.0 a 1.0, representando diferentes classes o
 #### Conclusão
 Este mapa de classificação de uso do solo visualiza a distribuição espacial das diferentes classes de uso do solo em uma determinada região. A predominância do amarelo sugere uma cobertura maior de vegetação ou agricultura, enquanto as manchas roxas indicam áreas com uso do solo diferente, possivelmente urbanas ou de vegetação esparsa. 
 
+### *Cálculo de áreas:*
+
+O cáculo de área está no arquivo csv, que também será gerado na pasta results.
+
+- Classe 0.0: A área calculada é 1.143.522.523,37 km².
+- Classe 1.0: A área calculada é 11.318.699.376,53 km².
+
+Para cada classe (0.0 e 1.0), a tabela apresenta a área correspondente, esses valores indicam a extensão espacial ocupada por cada classe.
+
+
+### ***Observação:***
+Os números e resultados podem sofrer alteração de acordo com os dados passados.
+
 # Testes unitários:
 
 Os testes unitários ficarão na seguinte estrutura de pastas e arquivos:
